@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  display: inline-flex;
+  background-image: url('../public/images/industry-3087393__480.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow: -moz-hidden-unscrollable;
+}
+
+.head{
+  height: 10%;
+  font-size: x-large;
+  background-color: rgb(4, 17, 58);
+  width: 100%;
+  position: fixed;
+  color: whitesmoke;
+}
+
+.SubDiv-1{
+    width: 40%;
+    height: 100%;
+    color:white;
+    vertical-align: middle;
+    padding-top: 35%;
+    font-size: larger;
+}
+
+.SubDiv-2{
+  width: 60%;
+  padding: 4%;
+  padding-bottom: 1%;
+  border-color: gray;
+  border-style: solid;
+  border-width: 0.5px;
+  background-color: rgb(71, 100, 155);
+}
+
+.form{
+  margin-top: 4%;
+  margin-bottom: 3%;
+  border-width: 5px;
+  border-radius: 10px;
+  border-color: gray;
+  border-style: solid;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  background-color: rgb(170, 168, 168, 0.4);
+}
+
+h6{
+  display: inline-flex;
+  margin-left: 2%;
+  margin-right: 0.2%;
+  font-size: 12px;
+}
+
+h2{
+  font-size: x-large;
+  font-weight: 1000;
+}
+
+input{
+  margin-right: 3%;
+}
+
+button{
+  height: 50px;
+  width: 250px;
+  border-radius: 25px;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(54, 54, 80);
+  border: white;
+}
+
+.result{
+  border-width: 5px;
+  border-radius: 10px;
+  border-color: gray;
+  border-style: solid;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  background-color: rgb(170, 168, 168, 0.4);
+}
+
+.res-data{
+  margin-top: 10px;
+  color: rgb(54, 39, 4);
+  font-size: xx-large;
+}
